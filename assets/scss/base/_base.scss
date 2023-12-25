@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.17s;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(/assets/img/discord-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--white);
+    font-family: var(--primary-font);
+}
+
+p{
+    font-family: var(--secondary-font);
+    color: var(--text-color);
+}
